@@ -18,6 +18,46 @@ This extension brings the power of dynamic data querying to your Markdown worksp
 - **Live Updates**: Preview updates automatically when you save files or switch editors.
 - **Clickable Links**: File links in tables and lists open directly in the VSCode editor.
 
+## Installation
+
+### Option 1: Install from VSIX (Recommended)
+
+1. Download the latest `.vsix` file from the [Releases](https://github.com/yahsan2/vscode-dataview-preview/releases) page
+2. Open VSCode
+3. Open the Command Palette (`Cmd+Shift+P` on Mac, `Ctrl+Shift+P` on Windows/Linux)
+4. Type "Extensions: Install from VSIX..." and select it
+5. Navigate to the downloaded `.vsix` file and select it
+6. Reload VSCode when prompted
+
+### Option 2: Install from Source (For Development)
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yahsan2/vscode-dataview-preview.git
+   cd vscode-dataview-preview
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Compile the extension:
+   ```bash
+   npm run compile
+   ```
+
+4. Open the project in VSCode:
+   ```bash
+   code .
+   ```
+
+5. Press `F5` to launch a new VSCode window with the extension loaded
+
+### Verify Installation
+
+After installation, open any Markdown file with a `dataview` code block. The preview should automatically render the query results.
+
 ## Usage
 
 Simply add a `dataview` code block to your Markdown file:
