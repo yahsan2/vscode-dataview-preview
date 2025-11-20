@@ -1,7 +1,7 @@
 {
-  "name": "vscode-dataviewjs-preview",
-  "displayName": "DataviewJS Preview",
-  "description": "Renders dataviewjs code blocks in VSCode markdown preview",
+  "name": "vscode-dataview-preview",
+  "displayName": "Dataview Preview",
+  "description": "Renders Dataview DQL queries and DataviewJS code blocks in VSCode markdown preview",
   "version": "0.0.1",
   "publisher": "yahsan2",
   "engines": {
