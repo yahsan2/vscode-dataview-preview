@@ -1,5 +1,8 @@
 # VSCode Dataview Preview
 
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/yahsan2.vscode-dataview-preview?style=flat-square&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=yahsan2.vscode-dataview-preview)
+[![License](https://img.shields.io/github/license/yahsan2/vscode-dataview-preview?style=flat-square)](LICENSE)
+
 Render [Obsidian Dataview](https://blacksmithgu.github.io/obsidian-dataview/) queries directly within VSCode's built-in Markdown preview.
 
 This extension brings the power of dynamic data querying to your Markdown workspace in VSCode. It indexes your Markdown files (frontmatter, tags, lists, tasks) and allows you to query them using the Dataview Query Language (DQL).
@@ -27,16 +30,30 @@ This extension brings the power of dynamic data querying to your Markdown worksp
 
 ## Installation
 
-### Option 1: Install from VSIX (Recommended)
+### Option 1: Install from Marketplace (Recommended)
+
+You can install the extension directly from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=yahsan2.vscode-dataview-preview):
+
+1. Open VS Code
+2. Go to the **Extensions** view (`Cmd+Shift+X` or `Ctrl+Shift+X`)
+3. Search for `Dataview Preview`
+4. Click **Install**
+
+Alternatively, you can install it via the command line:
+
+```bash
+code --install-extension yahsan2.vscode-dataview-preview
+```
+
+### Option 2: Install from VSIX (Manual)
 
 1. Download the latest `.vsix` file from the [Releases](https://github.com/yahsan2/vscode-dataview-preview/releases) page
-2. Open VSCode
-3. Open the Command Palette (`Cmd+Shift+P` on Mac, `Ctrl+Shift+P` on Windows/Linux)
+2. Open VS Code
+3. Open the Command Palette (`Cmd+Shift+P` or `Ctrl+Shift+P`)
 4. Type "Extensions: Install from VSIX..." and select it
 5. Navigate to the downloaded `.vsix` file and select it
-6. Reload VSCode when prompted
 
-### Option 2: Install from Source (For Development)
+### Option 3: Install from Source (For Development)
 
 1. Clone this repository:
    ```bash
@@ -54,12 +71,12 @@ This extension brings the power of dynamic data querying to your Markdown worksp
    npm run compile
    ```
 
-4. Open the project in VSCode:
+4. Open the project in VS Code:
    ```bash
    code .
    ```
 
-5. Press `F5` to launch a new VSCode window with the extension loaded
+5. Press `F5` to launch a new VS Code window with the extension loaded
 
 ### Verify Installation
 
