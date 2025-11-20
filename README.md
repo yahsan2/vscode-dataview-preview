@@ -4,6 +4,13 @@ Render [Obsidian Dataview](https://blacksmithgu.github.io/obsidian-dataview/) qu
 
 This extension brings the power of dynamic data querying to your Markdown workspace in VSCode. It indexes your Markdown files (frontmatter, tags, lists, tasks) and allows you to query them using the Dataview Query Language (DQL).
 
+## Screenshots
+
+![Dataview Query Example](https://raw.githubusercontent.com/yahsan2/vscode-dataview-preview/main/demo/screenshot.png)
+
+*Example: Querying daily notes with weather and mood data*
+
+
 ## Features
 
 - **Dataview Query Language (DQL) Support**:

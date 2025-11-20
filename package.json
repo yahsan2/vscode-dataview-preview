@@ -4,10 +4,32 @@
   "description": "Renders Dataview DQL queries and DataviewJS code blocks in VSCode markdown preview",
   "version": "0.0.1",
   "publisher": "yahsan2",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yahsan2/vscode-dataview-preview.git"
+  },
+  "homepage": "https://github.com/yahsan2/vscode-dataview-preview#readme",
+  "bugs": {
+    "url": "https://github.com/yahsan2/vscode-dataview-preview/issues"
+  },
+  "keywords": [
+    "dataview",
+    "dql",
+    "obsidian",
+    "markdown",
+    "query",
+    "table",
+    "list",
+    "preview",
+    "frontmatter"
+  ],
   "engines": {
     "vscode": "^1.80.0"
   },
   "categories": [
+    "Programming Languages",
+    "Formatters",
     "Other"
   ],
   "activationEvents": [
