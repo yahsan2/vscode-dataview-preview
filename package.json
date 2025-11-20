@@ -2,7 +2,7 @@
   "name": "vscode-dataview-preview",
   "displayName": "Dataview Preview",
   "description": "Renders Dataview DQL queries and DataviewJS code blocks in VSCode markdown preview",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "icon": "images/icon.png",
   "publisher": "yahsan2",
   "license": "MIT",
