@@ -20,5 +20,14 @@ jobs:
     - name: Install dependencies
       run: npm ci
 
+    - name: Check Secret
+      run: |
+        if [ -z "${{ secrets.VSCE_PAT }}" ]; then
+          echo "Error: VSCE_PAT secret is not set!"
+          exit 1
+        else
+          echo "VSCE_PAT secret is present."
+        fi
+
     - name: Publish to VS Code Marketplace
-      run: npx vsce publish -p ${{ secrets.VSCE_PAT }}
+      run: npx @vscode/vsce publish -p ${{ secrets.VSCE_PAT }}
